@@ -1,0 +1,187 @@
+@layout('layouts.main')
+@section('content')
+<main class="content">
+  <div class="container-fluid p-0">
+
+    <h1 class="h3 mb-3">Add Org Unit</h1>
+
+    <div class="row">
+        <div class="col-12">
+            <div class="card">
+            <div class="card-body">
+                <h5 class="card-title mb-2">Add Org Unit Form</h5>
+                <form action="/storeOrgUnit" method="post" enctype="multipart/form-data">
+                    <div class="row mb-2">
+                        <div class="col-md-6 mb-3">
+                            <label class="form-label">Zone</label>
+                            <select class="form-select" name="zone">
+                                <option value="" selected>Select...</option>
+                                <option value="Central">Central</option>
+                                <option value="East">East</option>
+                                <option value="West">West</option>                                
+                            </select>
+                        </div>
+                        <div class="col-md-6 mb-3">
+                            <label class="form-label">Wing</label>
+                            <select class="form-select" name="wing">
+                                <option value="" selected>Select...</option>                                
+                                <option value="Crimes">Crimes</option>
+                                <option value="Traffic">Traffic</option>
+                                <option value="CCRB">CCRB</option>
+                                <option value="Cyber Crimes">Cyber Crimes</option>
+                                <option value="Task Force">Task Force</option>
+                                <option value="She Teams">She Teams</option>
+                                <option value="IT Cell">IT Cell</option>
+                                <option value="Anti Human Trafficking Unit">Anti Human Trafficking Unit</option>
+                                <option value="CAR">CAR</option>
+                                <option value="CSB">CSB</option>
+                                <option value="Bharosa">Bharosa</option>
+                            </select>
+                        </div>                        
+                    </div>
+                    <div class="row mb-2">
+                        <div class="col-md-4 mb-3">
+                            <label class="form-label">Cell No</label>
+                            <input type="text" class="form-control" placeholder="Cell No" name="cellno">
+                        </div>
+                        <div class="col-md-4 mb-3">
+                            <label class="form-label">Office No</label>
+                            <input type="text" class="form-control" placeholder="Office No" name="officeno">
+                        </div>
+                        <div class="col-md-4 mb-3">
+                            <label class="form-label">Email</label>
+                            <input type="text" class="form-control" placeholder="Email" name="email">
+                        </div>
+                    </div>
+                    <div class="row mb-2">
+                        <div class="col-md-4 mb-3">
+                            <label class="form-label">Jurisdiction</label>
+                            <input type="text" class="form-control" placeholder="Jurisdiction" name="jurisdiction">
+                        </div>
+                        <div class="col-md-4 mb-3">
+                            <label class="form-label">Location</label>
+                            <select class="form-select" name="location">
+                                <option value="" selected>Select...</option>
+                                <option value="Warangal">Warangal</option>
+                                <option value="Hanamkonda">Hanamkonda</option>
+                                <option value="Kazipet">Kazipet</option>
+                                <option value="Narsampet">Narsampet</option>
+                                <option value="Parkal">Parkal</option>
+                                <option value="Mamnoor">Mamnoor</option>
+                                <option value="Jangaon">Jangaon</option>
+                                <option value="Ghanpur">Ghanpur(W)</option>
+                                <option value="Wardhannapet">Wardhannapet</option>
+                            </select>
+                        </div>
+                        <div class="col-md-4 mb-3">
+                            <label class="form-label">PS Location</label>
+                            <select class="form-select" name="pslocation">
+                                <option value="" selected>Select...</option>
+                                <option value="AJ Mills Colony">AJ Mills Colony</option>
+                                <option value="Matwada">Matwada</option>
+                                <option value="Inthezargunj">Inthezargunj</option>
+                                <option value="Hanamkonda">Hanamkonda</option>
+                                <option value="Subedari">Subedari</option>
+                                <option value="Kakatiya University">Kakatiya University</option>
+                                <option value="WPS Rural">WPS Rural</option>
+                                <option value="Kazipet">Kazipet</option>
+                                <option value="Madikonda">Madikonda</option>
+                                <option value="Dharmasagar">Dharmasagar</option>
+                                <option value="Velair">Velair</option>
+                                <option value="Hasanparthy">Hasanparthy</option>
+                                <option value="Kamalapur">Kamalapur</option>
+                                <option value="Elkaturthy Circle">Elkaturthy Circle</option>
+                                <option value="Elakthurthy">Elakthurthy</option>
+                                <option value="Mulkanoor">Mulkanoor</option>                                
+                                <option value="Vangara">Vangara</option>
+                                <option value="Narsampet">Narsampet</option>
+                                <option value="Duggondi Circle">Duggondi Circle</option>
+                                <option value="Duggondi">Duggondi</option>
+                                <option value="Khanapur">Khanapur</option>
+                                <option value="Nallabelli">Nallabelli</option>
+                                <option value="Neckonda Circle">Neckonda Circle</option>
+                                <option value="Neckonda">Neckonda</option>
+                                <option value="Chennaraopet">Chennaraopet</option>
+                                <option value="Parkal">Parkal</option>
+                                <option value="Athmakur">Athmakur</option>
+                                <option value="Shayampet Circle">Shayampet Circle</option>
+                                <option value="Shayampet">Shayampet</option>
+                                <option value="Damera">Damera</option>
+                                <option value="Mamnoor">Mamnoor</option>
+                                <option value="Geesugonda">Geesugonda</option>
+                                <option value="Parwathagiri Circle">Parwathagiri Circle</option>
+                                <option value="Parwatagiri">Parwatagiri</option>
+                                <option value="Sangem">Sangem</option>
+                                <option value="Inavole">Inavole</option>
+                                <option value="Jangaon">Jangaon</option>
+                                <option value="Narmetta Circle">Narmetta Circle</option>
+                                <option value="Narmetta">Narmetta</option>
+                                <option value="Tharigoppula">Tharigoppula</option>
+                                <option value="Bachannapet">Bachannapet</option>
+                                <option value="Ghanpur">Ghanpur</option>
+                                <option value="Chilpur">Chilpur</option>
+                                <option value="Raghunathpally Circle">Raghunathpally Circle</option>
+                                <option value="Raghunathpally">Raghunathpally</option>
+                                <option value="Lingala Ghanpur">Lingala Ghanpur</option>
+                                <option value="Gundala">Gundala</option>
+                                <option value="Wardhannapet Circle">Wardhannapet Circle</option>
+                                <option value="Wardhannapet">Wardhannapet</option>
+                                <option value="Rayaparthy">Rayaparthy</option>
+                                <option value="Zaffergadh">Zaffergadh</option>
+                                <option value="Palakurthy Circle">Palakurthy Circle</option>
+                                <option value="Palakurthy">Palakurthy</option>
+                                <option value="Kodakandla">Kodakandla</option>
+                                <option value="Devaruppala">Devaruppala</option>                            
+                            </select>
+                        </div>
+                    </div>
+                    <div class="row mb-2">
+                        <div class="col-md-4 mb-3">
+                            <label class="form-label">Area in sq Kms</label>
+                            <input type="number" class="form-control" name="area">
+                        </div>
+                        <div class="col-md-4 mb-3">
+                            <label class="form-label">Longitude</label>
+                            <input type="text" class="form-control" placeholder="Longitude" name="longitude">
+                        </div>
+                        <div class="col-md-4 mb-3">
+                            <label class="form-label">Latitude</label>
+                            <input type="text" class="form-control" placeholder="Latitude" name="latitude">
+                        </div>
+                    </div>
+                    <div class="row mb-2">
+                        <div class="col-md-6 mb-3">
+                            <label class="form-label">No. of Villages/Colonies</label>
+                            <input type="number" class="form-control" name="nov">
+                        </div>
+                        <div class="col-md-6 mb-3">
+                            <label class="form-label">No. of Police Stations</label>
+                            <input type="number" class="form-control" name="nop">
+                        </div>
+                    </div>
+                    <div class="row mb-2">
+                        <div class="col-md-4 mb-3">
+                            <label class="form-label">Facebook</label>
+                            <input type="text" class="form-control" placeholder="Facebook" name="fb">
+                        </div>
+                        <div class="col-md-4 mb-3">
+                            <label class="form-label">Twitter</label>
+                            <input type="text" class="form-control" placeholder="Twitter" name="twitter">
+                        </div>
+                        <div class="col-md-4 mb-3">
+                            <label class="form-label">Instagram</label>
+                            <input type="text" class="form-control" placeholder="Instagram" name="ig">
+                        </div>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </form>
+            </div>
+            </div>
+        </div>
+    </div>
+
+  </div>
+</main>
+<script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+<script src="js/idleTimer.js"></script>
+@endsection

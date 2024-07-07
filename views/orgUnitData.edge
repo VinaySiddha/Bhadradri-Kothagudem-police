@@ -1,0 +1,130 @@
+@layout('layouts.main')
+@section('content')
+<main class="content">
+  <div class="container-fluid p-0">
+
+    <h1 class="h3 mb-3">Org Unit</h1>
+
+    <div class="row">
+      <div class="col-12">
+        <div class="card">
+          <div class="card-header">
+            <a class="btn btn-primary mb-3" href="/addOrgUnit">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-plus-circle align-middle me-2"><circle cx="12" cy="12" r="10"></circle><line x1="12" y1="8" x2="12" y2="16"></line><line x1="8" y1="12" x2="16" y2="12"></line></svg>
+              <span>Add Org Unit</span></a>
+            <h5 class="card-title mb-0">List of Org Units</h5>
+          </div>
+          <div class="card-body">
+            <table id="example" class="display" style="width:100%">
+              <thead>
+                  <tr>
+                      <th>SNo</th>
+                      <th>DP</th>
+                      <th>Name</th>
+                      <th>Role</th>
+                      <th>Zone / Wing</th>
+                      <th>Division / Jurisdiction</th>
+                      <th>PS Location</th>
+                      <th>Cell No / Office No</th>
+                      <th>Actions</th>
+                  </tr>
+              </thead>
+              <tbody>
+                @each(orgUnit in orgUnits)
+                <tr>
+                  <td>{{$loop.index + 1}}</td>
+                  <td>
+                    @if(orgUnit.dp)
+                    <img src="{{orgUnit.dp}}" alt="" width="80px" height="80px">
+                    @endif
+                  </td>
+                  <td>
+                    @if(orgUnit.name)
+                      {{orgUnit.name}}
+                    @endif
+                  </td>
+                  <td>
+                  @if(orgUnit.role === "CP")
+                    Commissioner of Police
+                  @elseif(orgUnit.role === "DCP")
+                    Dy. Commissioner of Police
+                  @elseif(orgUnit.role === "ADLDCP")
+                    Addl. Dy. Commissioner of Police
+                  @elseif(orgUnit.role === "ACP")
+                    Asst. Commissioner of Police
+                  @elseif(orgUnit.role === "INS")
+                    Inspector of Police
+                  @elseif(orgUnit.role === "SI")
+                    Sub-Inspector of Police
+                  @elseif(orgUnit.role === "CI")
+                    Circle-Inspector of Police
+                  @endif
+                  </td>
+                  <td>
+                    @if(orgUnit.zone)
+                    {{orgUnit.zone}} zone 
+                      @endif
+                      @if(orgUnit.zone && orgUnit.wing)
+                      /
+                      @endif
+                      @if(orgUnit.wing)
+                      {{orgUnit.wing}} wing
+                    @endif
+                  </td>
+                  <td>
+                    @if(orgUnit.location)
+                    {{orgUnit.location}} 
+                     @endif
+                     @if(orgUnit.location && orgUnit.jurisdiction)
+                     /
+                     @endif
+                     @if(orgUnit.jurisdiction)
+                     {{orgUnit.jurisdiction}}
+                      @endif
+                  </td>
+                  <td>
+                    {{orgUnit.pslocation}}
+                  </td>
+                  <td>
+                    @if(orgUnit.cellno)
+                    {{orgUnit.cellno}}
+                     @endif
+                     @if(orgUnit.cellno && orgUnit.officeno)
+                     /
+                     @endif
+                     @if(orgUnit.officeno)
+                     {{orgUnit.officeno}}
+                      @endif
+                  </td>
+                  <td>
+                    @if(orgUnit.cid)
+                    <a class="btn btn-warning" href="/orgUnitContact?orgid={{orgUnit._id}}">Update Contact</a>
+                    @else
+                    <a class="btn btn-primary" href="/orgUnitContact?orgid={{orgUnit._id}}">Add Contact</a>
+                    @endif
+                  </td>
+                </tr>
+              @endeach
+              </tbody>
+          </table>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</main>
+<script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+<script src="https://cdn.datatables.net/1.11.1/js/jquery.dataTables.min.js"></script>
+<script>
+ $(document).ready(function() {
+    $('#example').DataTable({
+        // "order": [['0', 'dsc']],
+        "columnDefs": [
+          { orderable: false, targets: [0, 1, 2, 3, 4, 5, 6] }
+        ],
+    });
+} );
+</script>
+<script src="js/idleTimer.js"></script>
+@endsection

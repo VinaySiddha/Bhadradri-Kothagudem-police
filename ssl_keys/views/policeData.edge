@@ -1,0 +1,155 @@
+@layout('layouts.app')
+@section('content')
+<section class="headingSection">
+    <div class="headingDiv d-flex align-items-center">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h2 class="wow fadeInDown" data-wow-duration="2s">Police Station Data</h2>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="contentSection">
+    <div class="container">
+        <div class="contentSectionDiv">
+            <div class="contentSectionHeading">
+                
+
+                <div class="card wingBody card2">
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-6 mb-3">
+                                <div class="row">
+                                    <div class="col-12">
+                                        <h4 class="card-title">Officer Details</h4>
+                                    </div>                                
+                                </div> 
+                                <div class="row">
+                                    <div class="col-12 wingImg mb-3">
+                                        <img class="card-img-left" src="{{data.dp}}" alt="card img cap">
+                                    </div>
+                                </div>                                                           
+                                <div class="row">
+                                    <div class="col-4">
+                                        <h5 class="card-title">Name</h5>
+                                    </div>
+                                    <div class="col-8">
+                                        <h5 class="card-title normalField">{{data.name}}</h5>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-4">
+                                        <h5 class="card-title">Designation</h5>
+                                    </div>
+                                    <div class="col-8">
+                                        <h5 class="card-title normalField">{{data.roleName}}</h5>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-4">
+                                        <h5 class="card-title">Cell No.</h5>
+                                    </div>
+                                    <div class="col-8">
+                                        <h5 class="card-title normalField">{{data.cellno}}</h5>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-4">
+                                        <h5 class="card-title">Office No</h5>
+                                    </div>
+                                    <div class="col-8">
+                                        <h5 class="card-title normalField">{{data.officeno}}</h5>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-4">
+                                        <h5 class="card-title">Email</h5>
+                                    </div>
+                                    <div class="col-8">
+                                        <h5 class="card-title normalField">{{data.email}}</h5>
+                                    </div>
+                                </div>                            
+                            </div>
+                            <div class="col-6">
+                                <div class="row">
+                                    <div class="col-12">
+                                        <h4 class="card-title">Station Details</h4>
+                                    </div>                                
+                                </div>
+                                @if(data.psImg)
+                                <div class="row">
+                                    <div class="col-12 wingImg mb-3">
+                                        <img class="card-img-left" src="{{data.psImg}}" alt="card img cap">
+                                    </div>
+                                </div>    
+                                @endif                            
+                                <div class="row">
+                                    <div class="col-5">
+                                        <h5 class="card-title">Police Station</h5>
+                                    </div>
+                                    <div class="col-7">
+                                        <h5 class="card-title normalField">{{data.pslocation}}</h5>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-5">
+                                        <h5 class="card-title">Area in Sq Kms</h5>
+                                    </div>
+                                    <div class="col-7">
+                                        @if(data.area == 0)
+                                            <h5 class="card-title normalField">-</h5>
+                                        @else
+                                            <h5 class="card-title normalField">{{data.area}} Sq Kms Approx</h5>
+                                        @endif
+                                    </div>
+                                </div>
+                                @if(data.roleName === "Circle-Inspector of Police")
+                                <div class="row">
+                                    <div class="col-5">
+                                        <h5 class="card-title">No of Police Stations</h5>
+                                    </div>
+                                    <div class="col-7">
+                                        <h5 class="card-title normalField">{{data.nop}}</h5>
+                                    </div>
+                                </div>
+                                @else
+                                <div class="row">
+                                    <div class="col-5">
+                                        <h5 class="card-title">No of Villages/ Colonies</h5>
+                                    </div>
+                                    <div class="col-7">
+                                        @if(data.nov == 0)
+                                            <h5 class="card-title normalField">-</h5>
+                                        @else
+                                            <h5 class="card-title normalField">{{data.nov}}</h5>
+                                        @endif
+                                    </div>
+                                </div>
+                                @endif
+                                <div class="row">
+                                    <div class="col-5">
+                                        <h5 class="card-title">Google Maps</h5>
+                                    </div>
+                                    <div class="col-7">
+                                        <a class="normalA" href="https://www.google.com/maps/place/{{data.longitude}},{{data.latitude}}" target="_blank"><h5 class="card-title normalField">Click here for directions</h5></a>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-5">
+                                        <h5 class="card-title">Location</h5>
+                                    </div>
+                                    <div class="col-7">
+                                        <h5 class="card-title normalField">{{data.location}}</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+@endsection

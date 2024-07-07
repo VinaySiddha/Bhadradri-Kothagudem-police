@@ -1,0 +1,107 @@
+@layout('layouts.app')
+@section('content')
+<section class="headingSection">
+    <div class="headingDiv d-flex align-items-center">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h2 class="wow fadeInDown" data-wow-duration="2s">Cyber Awareness</h2>
+                    <h4 class="wow fadeInUp" data-wow-duration="2s">Virus Attack and Ransomware</h4>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="contentSection">
+    <div class="container">
+        <div class="contentSectionDiv">
+            <div class="contentImg">
+                <img src="images/cyberAwareness/computerVirus.jpg" alt="" class="img-fluid">
+            </div>
+            <div class="contentSectionHeading">
+                <h3>What is Computer Virus?</h3>
+                <p>A Computer Virus is a type of Malicious Software that, when executed, replicates itself by modifying other computer programs and inserting its own code.</p>
+        </div>
+        </div>
+        <div class="contentSectionDiv" align="justify">
+            <div class="contentSectionHeading">
+                <h3>Types of Computer Virus</h3>
+                <h4>Ransomware Virus</h4>
+                <p>Ransomware is a type of Malware that prevents one from using his/her computer or accessing certain files unless he/she pays a ransom. It often encrypts files so that they cannot be opened.</p>
+                <br>
+                <h4>Boot Sector Virus</h4>
+                <p>A Boot Sector virus is a type of virus that infects the boot sector of floppy disks or the Master Boot Record (MBR) of hard disks (some infect the boot sector of the hard disk instead of the MBR). The infected code runs when the system is booted from an infected disk.But once loaded, it will infect other floppy disks when accessed in the infected computer. While boot sector viruses infect at a BIOS level, they use DOS commands to spread to other floppy disks. For this reason, they started to fade from the scene after the appearance of Windows 95 (which made little use of DOS instructions). Today, there are programs known as ‘bootkits’ that write their code to the MBR as a means of loading early in the boot process and then concealing the actions of malware running under Windows. However, they are not designed to infect removable media.</p>
+                <p>The only absolute criterion for a boot sector is that it must contain 0x55 and 0xAA as its last two bytes. If this signature is not present or is corrupted, the computer may display an error message and refuse to boot. Problems with the sector may be due to physical drive corruption or the presence of a boot sector virus.</p>
+                <br>
+                <h4>Computer Worms</h4>
+                <p>A <strong>Worm Virus</strong> is a malicious, self-replicating program that can spread throughout a network without human assistance.</p>
+                <p>Worms cause damage similar to viruses, exploiting holes in security software and potentially stealing sensitive information, corrupting files and installing a back door for remote access to the system, among other issues.</p>
+                <p>Worms often utilize large amounts of memory and bandwidth, so affected servers, networks and individual systems are often overloaded and stop responding.</p>
+                <p>But worms are not viruses. Viruses need a host computer or operating system. The worm program operates alone.</p>
+                <p>The worm is often transmitted via file-sharing networks, information-transport features, and email attachments or by clicking links to malicious websites. Once downloaded, the worm takes advantage of a weakness in its target system or tricks a user into executing it. Some worms have a phishing component that entices users to run the malicious code.</p>
+                <p>Internet worms are often designed to exploit new security issues, and search for systems that haven’t installed current software or operating system security updates.</p>
+                <p>Classifications and names of worms include:</p>
+                <ul class="contentList">
+                    <li>Email-Worm</li>
+                    <li>IM-Worm</li>
+                    <li>IRC-Worm</li>
+                    <li>Net-Worm</li>
+                    <li>P2P-Worm</li>
+                </ul>
+                <br>
+                <h4>Trojan Virus</h4>
+                <p>A Trojan Horse or Trojan virus is a type of malware that is often disguised as legitimate software. Trojans can be employed by cyber-thieves and hackers trying to gain access to users' systems. Users are typically tricked by some form of social engineering into loading and executing Trojans on their systems. Once activated, Trojans can enable cyber-criminals to spy on you, steal your sensitive data, and gain backdoor access to your system.</p>
+                <br>
+                <h4>Rootkit Virus</h4>               
+                <p>A Rootkit is a clandestine computer program designed to provide continued privileged access to a computer while actively hiding its presence. Today rootkits are generally associated with malware, such as trojans, worms, viruses – that conceal their existence and actions from users and other system processes.</p>
+                <br>
+                <h4>Macro Virus</h4>
+                <p>A Macro Virus is a computer virus written in the same macro language as the software it infects — common victims include Microsoft Excel and Word. Because they target software rather than systems, Macro Viruses can infect any operating system. So a Macro Virus can infect a PC or Mac.</p>
+            </div>
+        </div>
+        <div class="contentSectionDiv" align="justify">
+            <div class="contentSectionHeading">
+                <h3>How to safeguard your computer from viruses</h3>
+                <h4>Keep your software up-to-date</h4>
+                <p>Software makers like Microsoft and Oracle routinely update their software to fix bugs that could potentially be exploited by hackers.</p>
+                <br>
+                <h4>Don’t click on links within emails</h4>
+                <p>A good rule of thumb is if you don’t recognize a sender of an email, don’t click on any links within it. Microsoft says 44.8 percent of Windows virus infections happen because the computer user clicked on something.</p>
+                <br>
+                <h4>Use antivirus software</h4>
+                <p>You can buy antivirus software like Avast, MacAfee, Bitdefender etc.,</p>
+                <br>
+                <h4>Back up your computer</h4>
+                <p>Regularly back up the information on your computer. You have three basic backup options: an external hard drive, online backup service, or cloud storage. Use a service like Google Drive, and your files will be continually backed up to the cloud.</p>
+                <br>
+                <h4>Use a strong password</h4>
+                <p>A strong password is one that is complex, with a mix of letters, numbers, and symbols. While some people use the same password for everything, try to avoid that practice.</p>
+                <p>Password security company SplashData.com says the three most common passwords are password, 123456, and 12345678. The company recommends avoiding using the same user name/password combination for multiple online site logins.</p>
+                <p>When creating a password, use eight characters or more and, to make them easier to remember, try using short phrases separated by spaces or underscore marks – such as “Car_123_@#$”</p>
+                <br>
+                <h4>Use a firewall</h4>
+                <p>Just because you have antivirus software running doesn’t mean you have a firewall. Both PCs and Macs come with built-in firewall software. Be sure to check that it’s enabled.</p>
+                <br>
+                <h4>Minimize downloads</h4>
+                <p>Make sure your Web browser’s security settings are high enough to detect unauthorized downloads. For Internet Explorer, the medium security setting is the minimum level to use.</p>
+                <br>
+                <h4>Use a pop-up blocker</h4>
+                <p>Web browsers have the ability to stop pop-up windows and allow you to set the security for accepting pop-ups or use popup blocker.</p>
+            </div>
+        </div>
+        <div class="contentSectionDiv" align="justify">
+            <div class="contentSectionHeading">
+                <h3>Incident Reporting</h3>
+                <h4>How & Where to Report a Cyber Fraud?</h4>
+                <ul class="contentList">
+                    <li>Take a clearly visible screenshot of the evidence.</li>
+                    <li>Brief facts of the complaint explaining how you have come in contact with the alleged person/website and subsequent fraud.</li>
+                    <li>Visit the nearest Police Station/Cyber Cell immediately.</li>
+                    <li align="justify">To report cybercrime complaints online, visit the National Cyber Crime Reporting Portal. This portal can be accessed at <a href="https://cybercrime.gov.in" target="_blank">https://cybercrime.gov.in</a>. In this portal, there are two sections. One section is to report crimes related to Women and Children (where reports can be filed anonymously as well). Another section is to report other types of cybercrimes. Complaint can also be filed via offline by dialing the helpline number 
+                       <strong>1930</strong> which connects to the T4C i.e., Telangana Cyber Crimes Co-ordination Centre from which authorized personnel will  guide the victim in freezing/ withholding the victim's amount in the bank account.</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+@endsection

@@ -1,0 +1,116 @@
+@layout('layouts.app')
+@section('content')
+<section class="headingSection">
+    <div class="headingDiv d-flex align-items-center">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h2 class="wow fadeInDown" data-wow-duration="2s">
+                        @if(data[0].wing === "CSB")
+                            City Special Branch
+                        @elseif(data[0].wing === "CCRB")
+                            City Crime Records Bureau
+                        @elseif(data[0].wing === "AHTU")
+                            anti human trafficking unit
+                        @elseif(data[0].wing === "CPTC")
+                            city police training centre
+                        @elseif(data[0].wing === "BHAROSA")
+                            bharosa centre
+                        @elseif(data[0].wing === "TASK FORCE")
+                            task force
+                        @elseif(data[0].wing === "CYBER CELL")
+                            Cyber crimes
+                        @elseif(data[0].wing === "SHE TEAMS")
+                            she teams
+                        @elseif(data[0].wing === "IT CELL")
+                            Information Technology cell
+                        @elseif(data[0].wing === "CAR")
+                            City Armed Reserve
+                        @elseif(data[0].wing === "Crimes")
+                            Crimes
+                        @elseif(data[0].wing === "Traffic")
+                            Traffic
+                        @else
+                            {{data[0].wing}} Wing
+                        @endif
+                    </h2>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="contentSection removePforSmall">
+    <div class="container">
+        <div class="contentSectionDiv">
+            @each(data in data)
+                <div class="card mb-5 wingBody">                
+                    <div class="card-body pb-0">
+                        <div class="row">
+                                <div class="col-3 mb-3 wingImg text-center">
+                                    <img src="{{data.dp}}" alt="Card image cap">
+                                </div>
+                                <div class="col-9">
+                                    <h5 class="card-title">{{data.role}}, {{data.wing}}</h5>
+                                    <div class="row">
+                                        <div class="col-4">
+                                            <h5 class="card-title">Name</h5>
+                                        </div>
+                                        <div class="col-8">
+                                            <h5 class="card-title normalField">
+                                                @if(data.name === '')
+                                                Vacancy
+                                                @else
+                                                {{data.name}}
+                                                @endif
+                                            </h5>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-4">
+                                            <h5 class="card-title">Rank</h5>
+                                        </div>
+                                        <div class="col-8">
+                                            <h5 class="card-title normalField">{{data.role}}</h5>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-4">
+                                            <h5 class="card-title">Cell No.</h5>
+                                        </div>
+                                        <div class="col-8">
+                                            <h5 class="card-title normalField">{{data.cellno}}</h5>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-4">
+                                            <h5 class="card-title">Office No.</h5>
+                                        </div>
+                                        <div class="col-8">
+                                            <h5 class="card-title normalField">{{data.officeno}}</h5>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-4">
+                                            <h5 class="card-title">Jurisdiction</h5>
+                                        </div>
+                                        <div class="col-8">
+                                            <h5 class="card-title normalField">{{data.jurisdiction}}</h5>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-4">
+                                            <h5 class="card-title">Location</h5>
+                                        </div>
+                                        <div class="col-8">
+                                            <h5 class="card-title normalField">{{data.location}}</h5>
+                                        </div>
+                                    </div>
+                                </div>
+                        </div>                  
+                    </div>
+                </div>
+            @endeach
+        </div>
+    </div>
+</section>
+@endsection
