@@ -1497,7 +1497,7 @@ let orgUnits = [
         "twitter": "",
         "ig": "",
         "cid": "615d59f2e1265219cc816fe8",
-        "name": ".Ramadevi",
+        "name": "M.Ramadevi",
         "role": "",
         "dp": "contactsData/sairamana.jpeg"
     },
@@ -1512,7 +1512,7 @@ let orgUnits = [
         "jurisdiction": "Bhadradri-Kothagudem  police department",
 
         "email": "itcoreteam-bdk@tspolice.gov.in",
-        "jurisdiction": "Warangal Police Commissionerate",
+        "jurisdiction": "Bhadradri-Kothagudem  police department",
 
         "location": "CPO Hanumakonda",
         "pslocation": "",
