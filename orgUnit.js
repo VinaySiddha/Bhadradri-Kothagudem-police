@@ -368,7 +368,7 @@ let orgUnits = [
         "Office Phone Number": 8712682122,
         "Mobile No": 8712682012,
         "Email ID": "inspr-dsb-bdk@tspolice.gov.in",
-        "dp":""
+        "dp":"contactsData/BKGM OFFICERS LIST/MNAGARAJU.jpg"
     },
     {
         "Name ": "Ch. Srinivas",
