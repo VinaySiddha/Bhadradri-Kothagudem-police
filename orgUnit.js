@@ -603,7 +603,7 @@ let orgUnits = [
         "officeno": "8712682116	",
         "email": "sho-dgm-bdk@tspolice.gov.in",
         "jurisdiction": "",
-        "location": "Laxminagaram (V) of Dummugudem",
+        "location": "ommit (V) of Dummugudem",
         "pslocation": "Dummugudem",
         "area": 25,
         "longitude": 17.85253,
