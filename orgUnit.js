@@ -385,6 +385,8 @@ let orgUnits = [
         "Office Phone Number": 8712682124,
         "Mobile No": 8712682123,
         "Email ID": "ci-dcrb-bdk@tspolice.gov.in "
+        "dp":"contactsData/BKGM OFFICERS LIST/MSRINIVAS.jpg"
+
     },
     {
         "Name ": "P Nagaraju Reddy",
@@ -393,6 +395,7 @@ let orgUnits = [
         "Office Phone Number": 8712682151,
         "Mobile No": 8712682151,
         "Email ID": "itcoreteam-bdk@tspolice.gov.in"
+        "dp":"contactsData/"
     },
     {
         "Name ": "P ASHOK KUMAR",
@@ -401,6 +404,7 @@ let orgUnits = [
         "Office Phone Number": 8712682141,
         "Mobile No": 8712682141,
         "Email ID": ""
+        "dp":"contactsData/BKGM OFFICERS LIST/PASHOK.jpg"
     },
     {
         "Name ": "Sk. Lal Babu",
@@ -409,6 +413,7 @@ let orgUnits = [
         "Office Phone Number": 8712682142,
         "Mobile No": 8712682142,
         "Email ID": ""
+        "dp":"contactsData/BKGM OFFICERS LIST/SKLAL.jpg"
     },
     {
         "Name ": "O.Sudhakar",
@@ -417,6 +422,7 @@ let orgUnits = [
         "Office Phone Number": 8712682143,
         "Mobile No": 8712682143,
         "Email ID": ""
+        "dp":"contactsData/BKGM OFFICERS LIST/OSUDHAKAR.jpg"
     },
     {
         "Name ": "Ch. Krishna Rao",
@@ -425,7 +431,7 @@ let orgUnits = [
         "Office Phone Number": 8712682144,
         "Mobile No": 8712682144,
         "Email ID": "",
-        "dp":"contactsdata/CH KRISHNA RAO RI Welfare.jpg"
+        "dp":"contactsdata/CHKRISHNA.jpg"
     },
     {
         "Name ": "G.Narasimha Rao",
@@ -434,6 +440,7 @@ let orgUnits = [
         "Office Phone Number": 8712682146,
         "Mobile No": 8712682146,
         "Email ID": ""
+        "dp":"contactsData/BKGM OFFICERS LIST/G NARASIMHA RAO RI Home Guards.jpg"
     },
     {
         "Name ": "B.Ravi",
@@ -442,6 +449,7 @@ let orgUnits = [
         "Office Phone Number": 8712682145,
         "Mobile No": 8712682145,
         "Email ID": ""
+        "dp":"contactsData/BKGM OFFICERS LIST/BOLEM RAVI RI Operations.jpg"
     },
     {
         "Name ": "M. Ramesh",
@@ -450,6 +458,8 @@ let orgUnits = [
         "Office Phone Number": 8712682127,
         "Mobile No": 8712682127,
         "Email ID": ""
+        "dp":"contactsData/BKGM OFFICERS LIST/M RAMESH Inspector PCR.jpg"
+        
     },
     {
         "Name ": "Bellam Satyanaryana",
@@ -458,6 +468,7 @@ let orgUnits = [
         "Office Phone Number": 8712682134,
         "Mobile No": 8712682133,
         "Email ID": "inspr-ccs-bdk@tspolice.gov.in"
+        "dp":"contactsData/BKGM OFFICERS LIST/B Sathyanarayana Inspector of Police ,PS YEllandu.jpg"
     },
     {
         "Name ": "T. Jithender",
@@ -466,6 +477,7 @@ let orgUnits = [
         "Office Phone Number": 8712566732,
         "Mobile No": 8712566732,
         "Email ID": ""
+        "dp":"contactsData/BKGM OFFICERS LIST/.jpg"
     },
     {
         "Name ": "M. Ramadevi",
@@ -474,6 +486,7 @@ let orgUnits = [
         "Office Phone Number": 8712682131,
         "Mobile No": 8341302507,
         "Email ID": ""
+        "dp":"contactsData/BKGM OFFICERS LIST/.jpg"
     },
     {
         "Name ": "V Srinivas Rao",
@@ -482,6 +495,7 @@ let orgUnits = [
         "Office Phone Number": "",
         "Mobile No": 9177190574,
         "Email ID": ""
+        "dp":"contactsData/BKGM OFFICERS LIST/jpg"
     },
     {
         "Name ": "M. Ramadevi",
@@ -490,6 +504,7 @@ let orgUnits = [
         "Office Phone Number": "",
         "Mobile No": 8341302507,
         "Email ID": ""
+        "dp":"contactsData/BKGM OFFICERS LIST/.jpg"
     }
 ]
 exports.orgUnits = orgUnits;
