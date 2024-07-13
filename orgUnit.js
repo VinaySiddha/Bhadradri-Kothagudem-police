@@ -384,7 +384,7 @@ let orgUnits = [
         "Wing": "DCRB",
         "Office Phone Number": 8712682124,
         "Mobile No": 8712682123,
-        "Email ID": "ci-dcrb-bdk@tspolice.gov.in "
+        "Email ID": "ci-dcrb-bdk@tspolice.gov.in ",
         "dp":"contactsData/BKGM OFFICERS LIST/MSRINIVAS.jpg"
 
     },
