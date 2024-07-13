@@ -395,7 +395,7 @@ let orgUnits = [
         "Office Phone Number": 8712682151,
         "Mobile No": 8712682151,
         "Email ID": "itcoreteam-bdk@tspolice.gov.in"
-        "dp":"contactsData/"
+        "dp":""
     },
     {
         "Name ": "P ASHOK KUMAR",
