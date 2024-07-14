@@ -8,7 +8,7 @@
                     <h2 class="wow fadeInDown" data-wow-duration="2s">
                         @if(data[0].Wing === "AO DPO")
                             AO DPO
-                        @elseif(data[0].Wing === "District Special Branch")
+                        @elseif(data[0].Wing === "DSB")
                             District Special Branch
                         @elseif(data[0].Wing === "SB-2")
                             SB-2
@@ -61,17 +61,17 @@
                                 <img src="{{data.dp}}" alt="Card image cap">
                             </div>
                             <div class="col-9">
-                                <h5 class="card-title">{{data.Wing}}</h5>
+                                <h5 class="card-title">{{data.wing}}</h5>
                                 <div class="row">
                                     <div class="col-4">
                                         <h5 class="card-title">Name</h5>
                                     </div>
                                     <div class="col-8">
                                         <h5 class="card-title normalField">
-                                            @if(data["Name "] === " ")
+                                            @if(data["name"] === " ")
                                             Vacancy
                                             @else
-                                            {{data["Name "]}}
+                                            {{data["name"]}}
                                             @endif
                                         </h5>
                                     </div>
@@ -81,7 +81,7 @@
                                         <h5 class="card-title">Rank</h5>
                                     </div>
                                     <div class="col-8">
-                                        <h5 class="card-title normalField">{{data.Rank}}</h5>
+                                        <h5 class="card-title normalField">{{data.role}}</h5>
                                     </div>
                                 </div>
                                 <div class="row">
@@ -89,7 +89,7 @@
                                         <h5 class="card-title">Cell No.</h5>
                                     </div>
                                     <div class="col-8">
-                                        <h5 class="card-title normalField">{{data["Mobile No"]}}</h5>
+                                        <h5 class="card-title normalField">{{data["cellno"]}}</h5>
                                     </div>
                                 </div>
                                 <div class="row">
