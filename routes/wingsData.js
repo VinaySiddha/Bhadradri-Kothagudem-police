@@ -4,7 +4,7 @@ module.exports = async (req, res) => {
     console.log('req.query.wing', req.query.wing);
     let data = [];
     for(let i=0; i<orgUnits.length; i++) {
-        if(orgUnits[i].Wing == req.query.wing) {
+        if(orgUnits[i].wing == req.query.wing) {
             data.push(orgUnits[i]);
         }
     }
