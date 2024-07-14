@@ -395,7 +395,6 @@ let orgUnits = [
         "Office Phone Number": 8712682151,
         "Mobile No": 8712682151,
         "Email ID": "itcoreteam-bdk@tspolice.gov.in"
-        "dp":""
     },
     {
         "Name ": "P ASHOK KUMAR",
@@ -403,7 +402,7 @@ let orgUnits = [
         "Wing": "Clues Team",
         "Office Phone Number": 8712682141,
         "Mobile No": 8712682141,
-        "Email ID": ""
+        "Email ID": "",
         "dp":"contactsData/BKGM OFFICERS LIST/PASHOK.jpg"
     },
     {
@@ -412,7 +411,7 @@ let orgUnits = [
         "Wing": "RI Admin",
         "Office Phone Number": 8712682142,
         "Mobile No": 8712682142,
-        "Email ID": ""
+        "Email ID": "",
         "dp":"contactsData/BKGM OFFICERS LIST/SKLAL.jpg"
     },
     {
@@ -421,7 +420,7 @@ let orgUnits = [
         "Wing": "RI MTO",
         "Office Phone Number": 8712682143,
         "Mobile No": 8712682143,
-        "Email ID": ""
+        "Email ID": "",
         "dp":"contactsData/BKGM OFFICERS LIST/OSUDHAKAR.jpg"
     },
     {
@@ -439,7 +438,7 @@ let orgUnits = [
         "Wing": "RI Home Guards",
         "Office Phone Number": 8712682146,
         "Mobile No": 8712682146,
-        "Email ID": ""
+        "Email ID": "",
         "dp":"contactsData/BKGM OFFICERS LIST/G NARASIMHA RAO RI Home Guards.jpg"
     },
     {
@@ -448,7 +447,7 @@ let orgUnits = [
         "Wing": "RI Operations",
         "Office Phone Number": 8712682145,
         "Mobile No": 8712682145,
-        "Email ID": ""
+        "Email ID": "",
         "dp":"contactsData/BKGM OFFICERS LIST/BOLEM RAVI RI Operations.jpg"
     },
     {
@@ -457,7 +456,7 @@ let orgUnits = [
         "Wing": "Police Control Room",
         "Office Phone Number": 8712682127,
         "Mobile No": 8712682127,
-        "Email ID": ""
+        "Email ID": "",
         "dp":"contactsData/BKGM OFFICERS LIST/M RAMESH Inspector PCR.jpg"
         
     },
@@ -467,7 +466,7 @@ let orgUnits = [
         "Wing": "CCS",
         "Office Phone Number": 8712682134,
         "Mobile No": 8712682133,
-        "Email ID": "inspr-ccs-bdk@tspolice.gov.in"
+        "Email ID": "inspr-ccs-bdk@tspolice.gov.in",
         "dp":"contactsData/BKGM OFFICERS LIST/B Sathyanarayana Inspector of Police ,PS YEllandu.jpg"
     },
     {
@@ -476,7 +475,7 @@ let orgUnits = [
         "Wing": "Cyber cell",
         "Office Phone Number": 8712566732,
         "Mobile No": 8712566732,
-        "Email ID": ""
+        "Email ID": "",
         "dp":"contactsData/BKGM OFFICERS LIST/.jpg"
     },
     {
@@ -485,7 +484,7 @@ let orgUnits = [
         "Wing": "She team",
         "Office Phone Number": 8712682131,
         "Mobile No": 8341302507,
-        "Email ID": ""
+        "Email ID": "",
         "dp":"contactsData/BKGM OFFICERS LIST/.jpg"
     },
     {
@@ -494,7 +493,7 @@ let orgUnits = [
         "Wing": "AHTU",
         "Office Phone Number": "",
         "Mobile No": 9177190574,
-        "Email ID": ""
+        "Email ID": "",
         "dp":"contactsData/BKGM OFFICERS LIST/jpg"
     },
     {
@@ -503,7 +502,7 @@ let orgUnits = [
         "Wing": "Bharosa ",
         "Office Phone Number": "",
         "Mobile No": 8341302507,
-        "Email ID": ""
+        "Email ID": "",
         "dp":"contactsData/BKGM OFFICERS LIST/.jpg"
     }
 ]
