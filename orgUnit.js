@@ -784,9 +784,7 @@ let orgUnits = [
         "cellno": 8712682004,
         "officeno": 8712682104,
         "email": "sdpo-bcm_tsp@telangana.gov.in",
-        "pslocation": "
-        
-        ",
+        "pslocation": "SDPO BHADRACHALAM",
         "area": null,
         "longitude": null,
         "latitude": null,
