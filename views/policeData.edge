@@ -117,7 +117,7 @@
                                 @else
                                 <div class="row">
                                     <div class="col-5">
-                                        <h5 class="card-title">No of Villages/ Colonies</h5>
+                                        <h5 class="card-title">No of Villages/ Hamlets / Colonies</h5>
                                     </div>
                                     <div class="col-7">
                                         @if(data.nov == 0)
@@ -133,7 +133,7 @@
                                         <h5 class="card-title">Google Maps</h5>
                                     </div>
                                     <div class="col-7">
-                                        <a class="normalA" href="https://www.google.com/maps/place/{{data.longitude}},{{data.latitude}}" target="_blank"><h5 class="card-title normalField">Click here for directions</h5></a>
+                                        <a class="normalA" href="{{ data.map }}" target="_blank"><h5 class="card-title normalField">Click here for directions</h5></a>
                                     </div>
                                 </div>
                                 <div class="row">
@@ -141,7 +141,7 @@
                                         <h5 class="card-title">Location</h5>
                                     </div>
                                     <div class="col-7">
-                                        <h5 class="card-title normalField">{{data.location}}</h5>
+                                        <h5 class="card-title normalField">{{data.pslocation}}</h5>
                                     </div>
                                 </div>
                             </div>

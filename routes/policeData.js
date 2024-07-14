@@ -1,27 +1,15 @@
-const {orgUnits} = require('../orgUnit');
+const { orgUnits } = require('../orgUnit');
+
 module.exports = async (req, res) => {
-  let title = 'Police Station Data';
-  console.log('req.query.ps', req.query.pslocation);
-  console.log('req.query.role', req.query.role);
-  console.log('req.query.zone', req.query.zone);
-  console.log('orgUnits', orgUnits[0]);
-  let orgdata = [];
-  let roleNames = {
-    'CP': 'Commissioner of Police',
-    'DCP': 'Dy. Commissioner of Police',
-    "ADLDCP" : 'Addl. Dy. Commissioner of Police',
-    'ACP': 'Asst. Commissioner of Police',
-    'INS': 'Inspector of Police',
-    'SI': 'Sub-Inspector of Police',
-    'CI': 'Circle-Inspector of Police'
-  };
-  for(let i=0; i<orgUnits.length; i++) {
-    if(orgUnits[i].pslocation == req.query.pslocation && orgUnits[i].zone == req.query.zone) {
-      orgUnits[i].roleName = roleNames[orgUnits[i].role];
-      orgdata.push(orgUnits[i]);
+    let title = 'Police Station Data';
+    console.log('req.query.pslocation', req.query.pslocation);
+
+    let data = orgUnits.find(unit => unit.pslocation === req.query.pslocation);
+    console.log('data', data);
+
+    if (!data) {
+        return res.status(404).send('Police station not found');
     }
-  }
-  console.log('orgdata', orgdata)
-  let data = orgdata[0]
-  res.render('policeData', { title, data });
+
+    res.render('policeData', { title, data });
 };
