@@ -94,7 +94,7 @@ let orgUnits = [
         "fb": null,
         "twitter": null,
         "ig": null,
-        "psImg": "contactsData/image26.jpeg",
+        "psImg": "contactsData/image26.png",
         "name": "N. Indrasena Reddy",
         "role": "Circle Inspector",
         "dp": "contactsData/image66.jpeg"
