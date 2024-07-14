@@ -14,10 +14,10 @@ let orgUnits = [
         "fb": null,
         "twitter": null,
         "ig": null,
-        "psImg": "contactsdata/image2.jpeg",
+        "psImg": "contactsData/image2.jpeg",
         "name": "B Rohith Raju IPS",
         "role": " Superintendet of Police ",
-        "dp": "contactsdata/image1.jpeg"
+        "dp": "contactsData/image1.jpeg"
     },
     {
         "wing": null,
@@ -34,10 +34,10 @@ let orgUnits = [
         "fb": null,
         "twitter": null,
         "ig": null,
-        "psImg": "contactsdata/image3.jpeg",
+        "psImg": "contactsData/image3.jpeg",
         "name": "Parithosh Pankaj IPS",
         "role": "Addl.SP(Optns)",
-        "dp": "contactsdata/image4.jpeg"
+        "dp": "contactsData/image4.jpeg"
     },
     {
         "wing": null,
@@ -54,10 +54,10 @@ let orgUnits = [
         "fb": null,
         "twitter": null,
         "ig": null,
-        "psImg": "contactsdata/image43.jpeg",
+        "psImg": "contactsData/image43.jpeg",
         "name": "SK.Abdul Rahaman",
         "role": "SDPO Kothagudem",
-        "dp": "contactsdata/image44.jpeg"
+        "dp": "contactsData/image44.jpeg"
     },
     {
         "wing": null,
@@ -74,10 +74,10 @@ let orgUnits = [
         "fb": null,
         "twitter": null,
         "ig": null,
-        "psImg": "contactsdata/image62.jpeg",
+        "psImg": "contactsData/image62.jpeg",
         "name": "R Venkateswarlu",
         "role": "Circle Inspector",
-        "dp": "contactsdata/image65.jpeg"
+        "dp": "contactsData/image65.jpeg"
     },
     {
         "wing": null,
@@ -94,10 +94,10 @@ let orgUnits = [
         "fb": null,
         "twitter": null,
         "ig": null,
-        "psImg": "contactsdata/image26.jpeg",
+        "psImg": "contactsData/image26.jpeg",
         "name": "N. Indrasena Reddy",
         "role": "Circle Inspector",
-        "dp": "contactsdata/image66.jpeg"
+        "dp": "contactsData/image66.jpeg"
     },
     {
         "wing": null,
@@ -114,10 +114,10 @@ let orgUnits = [
         "fb": null,
         "twitter": null,
         "ig": null,
-        "psImg": "contactsdata/image70.jpeg",
+        "psImg": "contactsData/image70.jpeg",
         "name": "M.Karunakar",
         "role": "Inspector of Police",
-        "dp": "contactsdata/image71.jpeg"
+        "dp": "contactsData/image71.jpeg"
     },
     {
         "wing": null,
@@ -134,10 +134,10 @@ let orgUnits = [
         "fb": null,
         "twitter": null,
         "ig": null,
-        "psImg": "contactsdata/image69.jpeg",
+        "psImg": "contactsData/image69.jpeg",
         "name": "T.Ramesh Kumar",
         "role": "Inspector of Police",
-        "dp": "contactsdata/image68.jpeg"
+        "dp": "contactsData/image68.jpeg"
     },
     {
         "wing": null,
@@ -174,10 +174,10 @@ let orgUnits = [
         "fb": null,
         "twitter": null,
         "ig": null,
-        "psImg": "contactsdata/image39.jpeg",
+        "psImg": "contactsData/image39.jpeg",
         "name": "Machineni Ravi",
         "role": "Sub-Inspector of Police SHO",
-        "dp": "contactsdata/image40.jpeg"
+        "dp": "contactsData/image40.jpeg"
     },
     {
         "wing": null,
@@ -194,10 +194,10 @@ let orgUnits = [
         "fb": null,
         "twitter": null,
         "ig": null,
-        "psImg": "contactsdata/image26.jpeg",
+        "psImg": "contactsData/image26.jpeg",
         "name": "I. Jeevan Raju",
         "role": null,
-        "dp": "contactsdata/image25.jpeg"
+        "dp": "contactsData/image25.jpeg"
     },
     {
         "wing": null,
@@ -214,10 +214,10 @@ let orgUnits = [
         "fb": null,
         "twitter": null,
         "ig": null,
-        "psImg": "contactsdata/image22.jpeg",
+        "psImg": "contactsData/image22.jpeg",
         "name": "S.Chandrasekhar",
         "role": null,
-        "dp": "contactsdata/image21.jpeg"
+        "dp": "contactsData/image21.jpeg"
     },
     {
         "wing": null,
@@ -254,10 +254,10 @@ let orgUnits = [
         "fb": null,
         "twitter": null,
         "ig": null,
-        "psImg": "contactsdata/image62.jpeg",
+        "psImg": "contactsData/image62.jpeg",
         "name": "G. Ramana Reddy",
         "role": "Sub - Inspector of Police",
-        "dp": "contactsdata/image61.jpeg"
+        "dp": "contactsData/image61.jpeg"
     },
     {
         "wing": null,
@@ -274,10 +274,10 @@ let orgUnits = [
         "fb": null,
         "twitter": null,
         "ig": null,
-        "psImg": "contactsdata/image9.jpeg",
+        "psImg": "contactsData/image9.jpeg",
         "name": "G. Praveen Kumar",
         "role": null,
-        "dp": "contactsdata/image10.jpeg"
+        "dp": "contactsData/image10.jpeg"
     },
     {
         "wing": null,
@@ -314,10 +314,10 @@ let orgUnits = [
         "fb": null,
         "twitter": null,
         "ig": null,
-        "psImg": "contactsdata/image45.jpeg",
+        "psImg": "contactsData/image45.jpeg",
         "name": " R. Sathish Kumar ",
         "role": "SDPO Paloncha ",
-        "dp": "contactsdata/image46.jpeg"
+        "dp": "contactsData/image46.jpeg"
     },
     {
         "wing": null,
@@ -334,10 +334,10 @@ let orgUnits = [
         "fb": null,
         "twitter": null,
         "ig": null,
-        "psImg": "contactsdata/image58.jpeg",
+        "psImg": "contactsData/image58.jpeg",
         "name": "V.Vinay Kumar",
         "role": "Circle Inspector",
-        "dp": "contactsdata/image57.jpeg"
+        "dp": "contactsData/image57.jpeg"
     },
     {
         "wing": null,
@@ -354,10 +354,10 @@ let orgUnits = [
         "fb": null,
         "twitter": null,
         "ig": null,
-        "psImg": "contactsdata/image59.jpeg",
+        "psImg": "contactsData/image59.jpeg",
         "name": "T Karunakar",
         "role": "Circle Inspector",
-        "dp": "contactsdata/image60.jpeg"
+        "dp": "contactsData/image60.jpeg"
     },
     {
         "wing": null,
@@ -374,10 +374,10 @@ let orgUnits = [
         "fb": null,
         "twitter": null,
         "ig": null,
-        "psImg": "contactsdata/image38.jpeg",
+        "psImg": "contactsData/image38.jpeg",
         "name": "Banala Ramu",
         "role": "Sub - Inspector of Police",
-        "dp": "contactsdata/image37.jpeg"
+        "dp": "contactsData/image37.jpeg"
     },
     {
         "wing": null,
@@ -394,10 +394,10 @@ let orgUnits = [
         "fb": null,
         "twitter": null,
         "ig": null,
-        "psImg": "contactsdata/image13.jpeg",
+        "psImg": "contactsData/image13.jpeg",
         "name": "B. Sreenu ",
         "role": null,
-        "dp": "contactsdata/image14.jpeg"
+        "dp": "contactsData/image14.jpeg"
     },
     {
         "wing": null,
@@ -414,10 +414,10 @@ let orgUnits = [
         "fb": null,
         "twitter": null,
         "ig": null,
-        "psImg": "contactsdata/image34.jpeg",
+        "psImg": "contactsData/image34.jpeg",
         "name": "E Raj kumar",
         "role": null,
-        "dp": "contactsdata/image33.jpeg"
+        "dp": "contactsData/image33.jpeg"
     },
     {
         "wing": null,
@@ -434,10 +434,10 @@ let orgUnits = [
         "fb": null,
         "twitter": null,
         "ig": null,
-        "psImg": "contactsdata/image28.jpeg",
+        "psImg": "contactsData/image28.jpeg",
         "name": "K.Rajasekhar",
         "role": null,
-        "dp": "contactsdata/image27.jpeg"
+        "dp": "contactsData/image27.jpeg"
     },
     {
         "wing": null,
@@ -454,10 +454,10 @@ let orgUnits = [
         "fb": null,
         "twitter": null,
         "ig": null,
-        "psImg": "contactsdata/image30.jpeg",
+        "psImg": "contactsData/image30.jpeg",
         "name": "P.Shiva Rama Krishna `",
         "role": null,
-        "dp": "contactsdata/image29.jpeg"
+        "dp": "contactsData/image29.jpeg"
     },
     {
         "wing": null,
@@ -474,10 +474,10 @@ let orgUnits = [
         "fb": null,
         "twitter": null,
         "ig": null,
-        "psImg": "contactsdata/image11.jpeg",
+        "psImg": "contactsData/image11.jpeg",
         "name": " B. Sai Kishore Reddy",
         "role": null,
-        "dp": "contactsdata/image12.jpeg"
+        "dp": "contactsData/image12.jpeg"
     },
     {
         "wing": null,
@@ -494,10 +494,10 @@ let orgUnits = [
         "fb": null,
         "twitter": null,
         "ig": null,
-        "psImg": "contactsdata/image49.jpeg",
+        "psImg": "contactsData/image49.jpeg",
         "name": "V.Ravinder Reddy",
         "role": "SDPO Manuguru",
-        "dp": "contactsdata/image50.jpeg"
+        "dp": "contactsData/image50.jpeg"
     },
     {
         "wing": null,
@@ -514,10 +514,10 @@ let orgUnits = [
         "fb": null,
         "twitter": null,
         "ig": null,
-        "psImg": "contactsdata/image67.jpeg",
+        "psImg": "contactsData/image67.jpeg",
         "name": "T. Karunakar",
         "role": "Circle Inspector",
-        "dp": "contactsdata/image60.jpeg"
+        "dp": "contactsData/image60.jpeg"
     },
     {
         "wing": null,
@@ -534,10 +534,10 @@ let orgUnits = [
         "fb": null,
         "twitter": null,
         "ig": null,
-        "psImg": "contactsdata/image8.jpeg",
+        "psImg": "contactsData/image8.jpeg",
         "name": "S Sateesh Kumar",
         "role": null,
-        "dp": "contactsdata/image7.jpeg"
+        "dp": "contactsData/image7.jpeg"
     },
     {
         "wing": null,
@@ -554,10 +554,10 @@ let orgUnits = [
         "fb": null,
         "twitter": null,
         "ig": null,
-        "psImg": "contactsdata/image23.jpeg",
+        "psImg": "contactsData/image23.jpeg",
         "name": "G. Ashok ",
         "role": null,
-        "dp": "contactsdata/image24.jpeg"
+        "dp": "contactsData/image24.jpeg"
     },
     {
         "wing": null,
@@ -594,10 +594,10 @@ let orgUnits = [
         "fb": null,
         "twitter": null,
         "ig": null,
-        "psImg": "contactsdata/image32.jpeg",
+        "psImg": "contactsData/image32.jpeg",
         "name": "A. Rajender",
         "role": null,
-        "dp": "contactsdata/image31.jpeg"
+        "dp": "contactsData/image31.jpeg"
     },
     {
         "wing": null,
@@ -614,10 +614,10 @@ let orgUnits = [
         "fb": null,
         "twitter": null,
         "ig": null,
-        "psImg": "contactsdata/image47.jpeg",
+        "psImg": "contactsData/image47.jpeg",
         "name": "N .Chandra Bhanu",
         "role": "SDPO Yellandu",
-        "dp": "contactsdata/image48.jpeg"
+        "dp": "contactsData/image48.jpeg"
     },
     {
         "wing": null,
@@ -634,10 +634,10 @@ let orgUnits = [
         "fb": null,
         "twitter": null,
         "ig": null,
-        "psImg": "contactsdata/image51.jpeg",
+        "psImg": "contactsData/image51.jpeg",
         "name": "Thatipamula Suresh ",
         "role": "Circle Inspector",
-        "dp": "contactsdata/image52.jpeg"
+        "dp": "contactsData/image52.jpeg"
     },
     {
         "wing": null,
@@ -654,10 +654,10 @@ let orgUnits = [
         "fb": null,
         "twitter": null,
         "ig": null,
-        "psImg": "contactsdata/image54.jpeg",
+        "psImg": "contactsData/image54.jpeg",
         "name": "L .Ravinder",
         "role": "Circle Inspector",
-        "dp": "contactsdata/image53.jpeg"
+        "dp": "contactsData/image53.jpeg"
     },
     {
         "wing": null,
@@ -674,10 +674,10 @@ let orgUnits = [
         "fb": null,
         "twitter": null,
         "ig": null,
-        "psImg": "contactsdata/image19.jpeg",
+        "psImg": "contactsData/image19.jpeg",
         "name": "B. Satyanarayana",
         "role": null,
-        "dp": "contactsdata/image20.jpeg"
+        "dp": "contactsData/image20.jpeg"
     },
     {
         "wing": null,
@@ -694,10 +694,10 @@ let orgUnits = [
         "fb": null,
         "twitter": null,
         "ig": null,
-        "psImg": "contactsdata/image15.jpeg",
+        "psImg": "contactsData/image15.jpeg",
         "name": "Mada Venkateswarlu",
         "role": null,
-        "dp": "contactsdata/image16.jpeg"
+        "dp": "contactsData/image16.jpeg"
     },
     {
         "wing": null,
@@ -754,10 +754,10 @@ let orgUnits = [
         "fb": null,
         "twitter": null,
         "ig": null,
-        "psImg": "contactsdata/image55.jpeg",
+        "psImg": "contactsData/image55.jpeg",
         "name": "M Rajamouli",
         "role": "Sub - Inspector of Police",
-        "dp": "contactsdata/image56.jpeg"
+        "dp": "contactsData/image56.jpeg"
     },
     {
         "wing": null,
@@ -794,10 +794,10 @@ let orgUnits = [
         "fb": null,
         "twitter": null,
         "ig": null,
-        "psImg": "contactsdata/image41.jpeg",
+        "psImg": "contactsData/image41.jpeg",
         "name": "Ankith Kumar Sankwar IPS",
         "role": "Assistant superintendent of Police",
-        "dp": "contactsdata/image42.jpeg"
+        "dp": "contactsData/image42.jpeg"
     },
     {
         "wing": null,
@@ -814,10 +814,10 @@ let orgUnits = [
         "fb": null,
         "twitter": null,
         "ig": null,
-        "psImg": "contactsdata/image6.jpeg",
+        "psImg": "contactsData/image6.jpeg",
         "name": "Y Sanjeeva Rao",
         "role": null,
-        "dp": "contactsdata/image5.jpeg"
+        "dp": "contactsData/image5.jpeg"
     },
     {
         "wing": null,
@@ -834,10 +834,10 @@ let orgUnits = [
         "fb": null,
         "twitter": null,
         "ig": null,
-        "psImg": "contactsdata/image17.jpeg",
+        "psImg": "contactsData/image17.jpeg",
         "name": "Alem Raju Verma",
         "role": null,
-        "dp": "contactsdata/image18.jpeg"
+        "dp": "contactsData/image18.jpeg"
     },
     {
         "wing": null,
@@ -854,10 +854,10 @@ let orgUnits = [
         "fb": null,
         "twitter": null,
         "ig": null,
-        "psImg": "contactsdata/image35.jpeg",
+        "psImg": "contactsData/image35.jpeg",
         "name": "Sri P Ganesh",
         "role": "Sub-Inspector of Police",
-        "dp": "contactsdata/image36.jpeg"
+        "dp": "contactsData/image36.jpeg"
     },
     {
         "wing": null,
@@ -897,7 +897,7 @@ let orgUnits = [
         "psImg": null,
         "name": "G Jaya Raju \n(ADMINISTRATIVE OFFICER)",
         "role": "Inspector of Police",
-        "dp": "contactsdata/image5.jpeg"
+        "dp": "contactsData/image5.jpeg"
     },
     {
         "wing": "District Special Branch",
@@ -917,7 +917,7 @@ let orgUnits = [
         "psImg": null,
         "name": "M Nagaraju",
         "role": "Inspector of Police",
-        "dp": "contactsdata/image5.jpeg"
+        "dp": "contactsData/image5.jpeg"
     },
     {
         "wing": "SB-2",
@@ -937,7 +937,7 @@ let orgUnits = [
         "psImg": null,
         "name": "Ch. Srinivas",
         "role": "Inspector of Police",
-        "dp": "contactsdata/image5.jpeg"
+        "dp": "contactsData/image5.jpeg"
     },
     {
         "wing": "DCRB",
@@ -957,7 +957,7 @@ let orgUnits = [
         "psImg": null,
         "name": "M Srinivas",
         "role": "Inspector of Police",
-        "dp": "contactsdata/image5.jpeg"
+        "dp": "contactsData/image5.jpeg"
     },
     {
         "wing": "IT Cell",
@@ -977,7 +977,7 @@ let orgUnits = [
         "psImg": null,
         "name": "P Nagaraju Reddy",
         "role": "Inspector of Police",
-        "dp": "contactsdata/image5.jpeg"
+        "dp": "contactsData/image5.jpeg"
     },
     {
         "wing": "Clues Team",
@@ -997,7 +997,7 @@ let orgUnits = [
         "psImg": null,
         "name": "P ASHOK KUMAR",
         "role": "Inspector of Police",
-        "dp": "contactsdata/image5.jpeg"
+        "dp": "contactsData/image5.jpeg"
     },
     {
         "wing": "RI Admin",
@@ -1017,7 +1017,7 @@ let orgUnits = [
         "psImg": null,
         "name": "Sk. Lal Babu",
         "role": "Inspector of Police",
-        "dp": "contactsdata/image5.jpeg"
+        "dp": "contactsData/image5.jpeg"
     },
     {
         "wing": "RI MTO",
@@ -1037,7 +1037,7 @@ let orgUnits = [
         "psImg": null,
         "name": "O.Sudhakar",
         "role": "Inspector of Police",
-        "dp": "contactsdata/image5.jpeg"
+        "dp": "contactsData/image5.jpeg"
     },
     {
         "wing": "RI Welfare",
@@ -1057,7 +1057,7 @@ let orgUnits = [
         "psImg": null,
         "name": "Ch. Krishna Rao",
         "role": "Inspector of Police",
-        "dp": "contactsdata/image5.jpeg"
+        "dp": "contactsData/image5.jpeg"
     },
     {
         "wing": "RI Home Guards",
@@ -1077,7 +1077,7 @@ let orgUnits = [
         "psImg": null,
         "name": "G.Narasimha Rao",
         "role": "Inspector of Police",
-        "dp": "contactsdata/image5.jpeg"
+        "dp": "contactsData/image5.jpeg"
     },
     {
         "wing": "RI Operations",
@@ -1097,7 +1097,7 @@ let orgUnits = [
         "psImg": null,
         "name": "B.Ravi",
         "role": "Inspector of Police",
-        "dp": "contactsdata/image5.jpeg"
+        "dp": "contactsData/image5.jpeg"
     },
     {
         "wing": "Police Control Room",
@@ -1117,7 +1117,7 @@ let orgUnits = [
         "psImg": null,
         "name": "M. Ramesh",
         "role": "Inspector of Police",
-        "dp": "contactsdata/image5.jpeg"
+        "dp": "contactsData/image5.jpeg"
     },
     {
         "wing": "CCS",
@@ -1137,7 +1137,7 @@ let orgUnits = [
         "psImg": null,
         "name": "Bellam Satyanaryana",
         "role": "Inspector of Police",
-        "dp": "contactsdata/image5.jpeg"
+        "dp": "contactsData/image5.jpeg"
     },
     {
         "wing": "Cyber cell",
@@ -1157,7 +1157,7 @@ let orgUnits = [
         "psImg": null,
         "name": "T. Jithender",
         "role": "Inspector of Police",
-        "dp": "contactsdata/image5.jpeg"
+        "dp": "contactsData/image5.jpeg"
     },
     {
         "wing": "She team",
@@ -1177,7 +1177,7 @@ let orgUnits = [
         "psImg": null,
         "name": "M. Ramadevi",
         "role": "Inspector of Police",
-        "dp": "contactsdata/image5.jpeg"
+        "dp": "contactsData/image5.jpeg"
     },
     {
         "wing": "AHTU",
@@ -1197,7 +1197,7 @@ let orgUnits = [
         "psImg": null,
         "name": "V Srinivas Rao",
         "role": "Inspector of Police",
-        "dp": "contactsdata/image5.jpeg"
+        "dp": "contactsData/image5.jpeg"
     },
     {
         "wing": "Bharosa ",
@@ -1217,7 +1217,7 @@ let orgUnits = [
         "psImg": null,
         "name": "M. Ramadevi",
         "role": "Inspector of Police",
-        "dp": "contactsdata/image5.jpeg"
+        "dp": "contactsData/image5.jpeg"
     }
 ]
 exports.orgUnits = orgUnits;
