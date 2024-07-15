@@ -1176,7 +1176,7 @@ let orgUnits = [
         "ig": null,
         "psImg": null,
         "name": "M. Ramadevi",
-        "role": "Reserve Inspector of Police",
+        "role": "Women Protection Officer",
         "dp": "contactsData/image85.jpeg"
     },
     {
