@@ -234,10 +234,10 @@ let orgUnits = [
         "fb": null,
         "twitter": null,
         "ig": null,
-        "psImg": null,
+        "psImg": "contactsData/image87ps.jpg",
         "name": "Sk. Jubeda begum",
         "role": null,
-        "dp": null
+        "dp": "contactsData/image87.jpg"
     },
     {
         "wing": null,
