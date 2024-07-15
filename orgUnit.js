@@ -504,7 +504,7 @@ let orgUnits = [
         "cellno": 8712682097,
         "officeno": 8712682098,
         "email": "ci-ebym-bdk@tspolice.gov.in ",
-        "pslocation": "CI Edulla Bayyaram",
+        "pslocation": "Circle Office Edulla Bayyaram",
         "area": null,
         "longitude": null,
         "latitude": null,
@@ -895,12 +895,12 @@ let orgUnits = [
         "twitter": null,
         "ig": null,
         "psImg": null,
-        "name": "G Jaya Raju \n(ADMINISTRATIVE OFFICER)",
+        "name": "G Jaya Raju (ADMINISTRATIVE OFFICER)",
         "role": "Inspector of Police",
         "dp": "contactsData/image5.jpeg"
     },
     {
-        "wing": "District Special Branch",
+        "wing": "DSB",
         "cellno": 8712682012,
         "officeno": 8712682122,
         "email": "inspr-dsb-bdk@tspolice.gov.in",
@@ -917,10 +917,10 @@ let orgUnits = [
         "psImg": null,
         "name": "M Nagaraju",
         "role": "Inspector of Police",
-        "dp": "contactsData/image5.jpeg"
+        "dp": "contactsData/image73.jpeg"
     },
     {
-        "wing": "SB-2",
+        "wing": "DSB-2",
         "cellno": 8712682013,
         "officeno": 8712682013,
         "email": null,
@@ -937,7 +937,7 @@ let orgUnits = [
         "psImg": null,
         "name": "Ch. Srinivas",
         "role": "Inspector of Police",
-        "dp": "contactsData/image5.jpeg"
+        "dp": "contactsData/image74.jpeg"
     },
     {
         "wing": "DCRB",
@@ -957,7 +957,7 @@ let orgUnits = [
         "psImg": null,
         "name": "M Srinivas",
         "role": "Inspector of Police",
-        "dp": "contactsData/image5.jpeg"
+        "dp": "contactsData/image75.jpeg"
     },
     {
         "wing": "IT Cell",
@@ -977,7 +977,7 @@ let orgUnits = [
         "psImg": null,
         "name": "P Nagaraju Reddy",
         "role": "Inspector of Police",
-        "dp": "contactsData/image5.jpeg"
+        "dp": "contactsData/image72.jpeg"
     },
     {
         "wing": "Clues Team",
@@ -997,7 +997,7 @@ let orgUnits = [
         "psImg": null,
         "name": "P ASHOK KUMAR",
         "role": "Inspector of Police",
-        "dp": "contactsData/image5.jpeg"
+        "dp": "contactsData/image76.jpeg"
     },
     {
         "wing": "RI Admin",
@@ -1016,8 +1016,8 @@ let orgUnits = [
         "ig": null,
         "psImg": null,
         "name": "Sk. Lal Babu",
-        "role": "Inspector of Police",
-        "dp": "contactsData/image5.jpeg"
+        "role": "Reserve Inspector of Police",
+        "dp": "contactsData/image78.jpeg"
     },
     {
         "wing": "RI MTO",
@@ -1036,8 +1036,8 @@ let orgUnits = [
         "ig": null,
         "psImg": null,
         "name": "O.Sudhakar",
-        "role": "Inspector of Police",
-        "dp": "contactsData/image5.jpeg"
+        "role": "Reserve Inspector of Police",
+        "dp": "contactsData/image77.jpeg"
     },
     {
         "wing": "RI Welfare",
@@ -1056,8 +1056,8 @@ let orgUnits = [
         "ig": null,
         "psImg": null,
         "name": "Ch. Krishna Rao",
-        "role": "Inspector of Police",
-        "dp": "contactsData/image5.jpeg"
+        "role": "Reserve Inspector of Police",
+        "dp": "contactsData/image79.jpeg"
     },
     {
         "wing": "RI Home Guards",
@@ -1076,8 +1076,8 @@ let orgUnits = [
         "ig": null,
         "psImg": null,
         "name": "G.Narasimha Rao",
-        "role": "Inspector of Police",
-        "dp": "contactsData/image5.jpeg"
+        "role": "Reserve Inspector of Police",
+        "dp": "contactsData/image80.jpeg"
     },
     {
         "wing": "RI Operations",
@@ -1097,7 +1097,7 @@ let orgUnits = [
         "psImg": null,
         "name": "B.Ravi",
         "role": "Inspector of Police",
-        "dp": "contactsData/image5.jpeg"
+        "dp": "contactsData/image81.jpeg"
     },
     {
         "wing": "Police Control Room",
@@ -1117,7 +1117,7 @@ let orgUnits = [
         "psImg": null,
         "name": "M. Ramesh",
         "role": "Inspector of Police",
-        "dp": "contactsData/image5.jpeg"
+        "dp": "contactsData/image82.jpeg"
     },
     {
         "wing": "CCS",
@@ -1137,7 +1137,7 @@ let orgUnits = [
         "psImg": null,
         "name": "Bellam Satyanaryana",
         "role": "Inspector of Police",
-        "dp": "contactsData/image5.jpeg"
+        "dp": "contactsData/image83.jpeg"
     },
     {
         "wing": "Cyber cell",
@@ -1157,7 +1157,7 @@ let orgUnits = [
         "psImg": null,
         "name": "T. Jithender",
         "role": "Inspector of Police",
-        "dp": "contactsData/image5.jpeg"
+        "dp": "contactsData/image84.jpeg"
     },
     {
         "wing": "She team",
@@ -1176,8 +1176,8 @@ let orgUnits = [
         "ig": null,
         "psImg": null,
         "name": "M. Ramadevi",
-        "role": "Inspector of Police",
-        "dp": "contactsData/image5.jpeg"
+        "role": "Reserve Inspector of Police",
+        "dp": "contactsData/image85.jpeg"
     },
     {
         "wing": "AHTU",
@@ -1200,7 +1200,7 @@ let orgUnits = [
         "dp": "contactsData/image5.jpeg"
     },
     {
-        "wing": "Bharosa ",
+        "wing": "Bharosa",
         "cellno": 8341302507,
         "officeno": null,
         "email": null,
@@ -1216,8 +1216,28 @@ let orgUnits = [
         "ig": null,
         "psImg": null,
         "name": "M. Ramadevi",
+        "role": "Reserve Inspector of Police",
+        "dp": "contactsData/image85.jpeg"
+    },
+    {
+        "wing": "DSP DCRB",
+        "cellno": 8712682002,
+        "officeno": null,
+        "email": null,
+        "pslocation": "Kothagudem",
+        "area": null,
+        "longitude": null,
+        "latitude": null,
+        "map": null,
+        "nov": null,
+        "nop": null,
+        "fb": null,
+        "twitter": null,
+        "ig": null,
+        "psImg": null,
+        "name": "N Mallaih Swamy Naidu",
         "role": "Inspector of Police",
-        "dp": "contactsData/image5.jpeg"
+        "dp": "contactsData/image86.jpeg"
     }
 ]
 exports.orgUnits = orgUnits;
