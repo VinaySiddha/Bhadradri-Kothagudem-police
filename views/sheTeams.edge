@@ -18,6 +18,25 @@
 <div class="photo-container">
         <img src="images/she2.jpeg" alt="Photo 1">
 </div>
+<style>
+        .photo-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border: 1px solid #ccc;
+            padding: 20px;
+        }
+
+        .photo-container img {
+            max-width: 45%;
+            height: auto;
+            margin-right: 20px; /* Add a right margin to the first photo */
+        }
+
+        .photo-container img:last-child {
+            margin-right: 0; /* Remove right margin for the last photo */
+        }
+    </style>
 
 <section class="contentSection removePforSmall">
     <div class="container">
