@@ -645,7 +645,7 @@ let orgUnits = [
         "officeno": 8712682083,
         "email": "ci-gdl-bdk@tspolice.gov.in",
         "pslocation": "Circle office Gundala",
-        "area": null,
+        "area": 726.33,
         "longitude": null,
         "latitude": null,
         "map": "https://maps.app.goo.gl/AXPYXUytC1z2P3k19",
