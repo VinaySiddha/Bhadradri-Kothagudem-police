@@ -445,7 +445,11 @@ let orgUnits = [
         "officeno": 8712682063,
         "email": "sho-aspet-bdk@tspolice.gov.in",
         "pslocation": "Aswaraopeta PS",
+<<<<<<< HEAD
+        "area": "540.24",
+=======
         "area": "540.24 ",
+>>>>>>> 40e32002bc7a6340e0b744cb441e398deae23bf6
         "longitude": null,
         "latitude": null,
         "map": "https://maps.app.goo.gl/T3hzQ6LN9TueP7nV9 ",
@@ -465,7 +469,7 @@ let orgUnits = [
         "officeno": 8712682066,
         "email": "sho-dpet-bdk@tspolice.gov.in",
         "pslocation": "Dammapeta PS",
-        "area": "447.23",
+        "area": "438.49",
         "longitude": null,
         "latitude": null,
         "map": "https://maps.app.goo.gl/Ep3aZe13aanmhUBEA",
