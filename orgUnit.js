@@ -294,10 +294,10 @@ let orgUnits = [
         "fb": null,
         "twitter": null,
         "ig": null,
-        "psImg": null,
+        "psImg": "contactsData/nareshps.jpg",
         "name": "K.Naresh",
-        "role": null,
-        "dp": null
+        "role": "Sub Inspector Of Police",
+        "dp": "conatctsData/knaresh.jpg"
     },
     {
         "wing": null,
