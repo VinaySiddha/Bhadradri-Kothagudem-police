@@ -14,7 +14,7 @@ var videosRouter = require('./routes/videos');
 
 //About
 var aboutRouter = require('./routes/about');
-var previousCommissionersRouter = require('./routes/previousCommissioners');
+var previousCommissionersRouter = require('./routes/Previous Superintendents');
 var achievementsAndAwardsRouter = require('./routes/achievementsAndAwards');
 var visionMissionRouter = require('./routes/VisionMission');
 var martyrsRouter = require('./routes/martyrs');
