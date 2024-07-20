@@ -324,7 +324,7 @@ let orgUnits = [
         "cellno": 8712682008,
         "officeno": 8712682047,
         "email": "sdpo-pvc-bdk@tspolice.gov.in",
-        "pslocation": "SDPO Paloncha ",
+        "pslocation": "SDPO Paloncha",
         "area": "24.86 Sq.Km",
         "longitude": null,
         "latitude": null,
