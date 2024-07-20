@@ -1224,7 +1224,7 @@ let orgUnits = [
         "dp": "contactsData/image85.jpeg"
     },
     {
-        "wing": "DSP DCRB",
+        "wing": "INCHARGE FUNCTIONAL VERTICAL",
         "cellno": 8712682002,
         "officeno": null,
         "email": null,
@@ -1240,7 +1240,7 @@ let orgUnits = [
         "ig": null,
         "psImg": null,
         "name": "N Mallaih Swamy Naidu",
-        "role": "Inspector of Police",
+        "role": "DSP",
         "dp": "contactsData/image86.jpeg"
     }
 ]
