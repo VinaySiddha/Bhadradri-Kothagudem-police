@@ -894,10 +894,10 @@ let orgUnits = [
         "fb": null,
         "twitter": null,
         "ig": null,
-        "psImg": null,
+        "psImg": "contactsData/madhups.jpg",
         "name": "S Madhu Prasad",
-        "role": null,
-        "dp": null
+        "role": "Sub Inspector Of Police",
+        "dp": "contactsData/madhu.jpg",
     },
     {
         "wing": "AO DPO",
