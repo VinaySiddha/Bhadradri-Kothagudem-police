@@ -19,7 +19,7 @@ var achievementsAndAwardsRouter = require('./routes/achievementsAndAwards');
 var visionMissionRouter = require('./routes/VisionMission');
 var martyrsRouter = require('./routes/martyrs');
 
-var organizationStructureRouter = require('./routes/organizationStructure');
+// var organizationStructureRouter = require('./routes/organizationStructure');
 var wingsRouter = require('./routes/wings');
 var contactsRouter = require('./routes/contacts');
 var policeDataRouter = require('./routes/policeData');
