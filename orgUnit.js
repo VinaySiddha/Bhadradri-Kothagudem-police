@@ -815,7 +815,7 @@ let orgUnits = [
         "twitter": null,
         "ig": null,
         "psImg": "contactsData/image41.jpeg",
-        "name": "Ankith Kumar Sankwar IPS",
+        "name": "Ankit Kumar Sankhwar IPS",
         "role": "Assistant superintendent of Police",
         "dp": "contactsData/image42.jpeg"
     },
@@ -1188,7 +1188,7 @@ let orgUnits = [
         "area": null,
         "longitude": null,
         "latitude": null,
-        "map": null,
+        "map": "17.54409765336142",
         "nov": null,
         "nop": null,
         "fb": null,
@@ -1196,7 +1196,7 @@ let orgUnits = [
         "ig": null,
         "psImg": null,
         "name": "M. Ramadevi",
-        "role": "Women Protection Officer",
+        "role": "Rank Reserve Sub Inspector",
         "dp": "contactsData/image85.jpeg"
     },
     {
@@ -1208,7 +1208,7 @@ let orgUnits = [
         "area": null,
         "longitude": null,
         "latitude": null,
-        "map": null,
+        "map": "80.61815329960186",
         "nov": null,
         "nop": null,
         "fb": null,
