@@ -534,10 +534,10 @@ let orgUnits = [
         "fb": null,
         "twitter": null,
         "ig": null,
-        "psImg": "contactsData/image67.jpeg",
+        "psImg": "images/gallery/image67.jpeg",
         "name": "T. Karunakar",
         "role": "Circle Inspector",
-        "dp": "contactsData/image60.jpeg"
+        "dp": "images/gallery/image60.jpeg"
     },
     {
         "wing": null,
