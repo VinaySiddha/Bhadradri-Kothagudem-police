@@ -277,7 +277,7 @@ let orgUnits = [
         "psImg": "contactsData/image9.jpeg",
         "name": "G. Praveen Kumar",
         "role": null,
-        "dp": "contactsData/image10.jpeg"
+        "dp": "images/gallery/image10.png"
     },
     {
         "wing": null,
