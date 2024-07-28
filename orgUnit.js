@@ -344,7 +344,7 @@ let orgUnits = [
         "cellno": 8712682048,
         "officeno": 8712682049,
         "email": "ci-pvc-bdk@tspolice.gov.in",
-        "pslocation": "Circle Office Polaoncha",
+        "pslocation": "Circle Office Palwancha",
         "area": null,
         "longitude": null,
         "latitude": null,
@@ -384,7 +384,7 @@ let orgUnits = [
         "cellno": 8712682050,
         "officeno": 8712682051,
         "email": "sho-pvct-bdk@tspolice.gov.in",
-        "pslocation": "Paloncha Town PS",
+        "pslocation": "Palvancha Town PS",
         "area": null,
         "longitude": null,
         "latitude": null,
@@ -404,7 +404,7 @@ let orgUnits = [
         "cellno": 8712682053,
         "officeno": 8712682054,
         "email": "sho-pvcr-bdk@tspolice.gov.in",
-        "pslocation": "Paloncha Rural PS",
+        "pslocation": "Palancha Rural PS",
         "area": null,
         "longitude": null,
         "latitude": null,
@@ -414,7 +414,7 @@ let orgUnits = [
         "fb": null,
         "twitter": null,
         "ig": null,
-        "psImg": "contactsData/image13.jpeg",
+        "psImg": "images/palvancharural.jpg",
         "name": "B. Sreenu ",
         "role": null,
         "dp": "contactsData/image14.jpeg"
@@ -424,7 +424,7 @@ let orgUnits = [
         "cellno": 8712682055,
         "officeno": 8712682056,
         "email": "sho-bpd-bdk@tspolice.gov.in",
-        "pslocation": "Burgamphad PS",
+        "pslocation": "Burgumphad PS",
         "area": "292.71",
         "longitude": null,
         "latitude": null,
@@ -444,7 +444,7 @@ let orgUnits = [
         "cellno": 8712682058,
         "officeno": 8712682059,
         "email": "sho-mlkp-bdk@tspolice.gov.in",
-        "pslocation": "Mulkalapalli PS",
+        "pslocation": "Mulakalpally PS",
         "area": 552.00,
         "longitude": null,
         "latitude": null,
@@ -754,10 +754,10 @@ let orgUnits = [
         "fb": null,
         "twitter": null,
         "ig": null,
-        "psImg": null,
+        "psImg": "images/allapally.jpg",
         "name": "E. Rathish",
         "role": null,
-        "dp": null
+        "dp": "images/siallapally.jpg"
     },
     {
         "wing": null,
@@ -794,10 +794,10 @@ let orgUnits = [
         "fb": null,
         "twitter": null,
         "ig": null,
-        "psImg": null,
+        "psImg": "images/komps.jpg",
         "name": "M.Someswar",
         "role": null,
-        "dp": null
+        "dp": "images/komsi.jpg"
     },
     {
         "wing": null,
@@ -1196,7 +1196,7 @@ let orgUnits = [
         "ig": null,
         "psImg": null,
         "name": "M. Ramadevi",
-        "role": "Rank Reserve Sub Inspector",
+        "role": "Reserve Sub Inspector Of Police",
         "dp": "contactsData/image85.jpeg"
     },
     {
@@ -1236,7 +1236,7 @@ let orgUnits = [
         "ig": null,
         "psImg": null,
         "name": "M. Ramadevi",
-        "role": "Rank Reserve Sub Inspector",
+        "role": "Reserve Sub Inspector Of Police",
         "dp": "contactsData/image85.jpeg"
     },
     {
