@@ -297,7 +297,7 @@ let orgUnits = [
         "psImg": "contactsData/nareshps.jpg",
         "name": "K.Naresh",
         "role": "Sub Inspector Of Police",
-        "dp": "conatctsData/knaresh.jpg"
+        "dp": "images/gallery/knaresh.jpg"
     },
     {
         "wing": null,
