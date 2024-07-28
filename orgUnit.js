@@ -1228,7 +1228,7 @@ let orgUnits = [
         "area": null,
         "longitude": null,
         "latitude": null,
-        "map": null,
+        "map": "17.54329263129912",
         "nov": null,
         "nop": null,
         "fb": null,
