@@ -544,7 +544,7 @@ let orgUnits = [
         "cellno": 8712682089,
         "officeno": 8712682090,
         "email": "sho-mngr-bdk@tspolice.gov.in",
-        "pslocation": "Manuguru PS",
+        "pslocation": "Manguru PS",
         "area": 239.70,
         "longitude": null,
         "latitude": null,
