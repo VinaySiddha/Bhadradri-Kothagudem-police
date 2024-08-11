@@ -1201,7 +1201,7 @@ let orgUnits = [
     },
     {
         "wing": "AHTU",
-        "cellno": 9177190574,
+        "cellno": 9395301789,
         "officeno": null,
         "email": null,
         "pslocation": "Kothagudem",
@@ -1215,7 +1215,7 @@ let orgUnits = [
         "twitter": null,
         "ig": null,
         "psImg": null,
-        "name": "V Srinivas Rao",
+        "name": "P.Nagaraju Reddy",
         "role": "Inspector of Police",
         "dp": "contactsData/image5.jpeg"
     },
