@@ -415,9 +415,9 @@ let orgUnits = [
         "twitter": null,
         "ig": null,
         "psImg": "images/palvancharural.jpg",
-        "name": "B. Sreenu ",
-        "role": null,
-        "dp": "contactsData/image14.jpeg"
+        "name": "B. Suresh ",
+        "role": "Sub Inspector Of Police",
+        "dp": "images/gallery/palancha.jpg"
     },
     {
         "wing": null,
@@ -715,9 +715,9 @@ let orgUnits = [
         "twitter": null,
         "ig": null,
         "psImg": "contactsData/image15.jpeg",
-        "name": "Mada Venkateswarlu",
-        "role": null,
-        "dp": "contactsData/image16.jpeg"
+        "name": "P Suresh",
+        "role": "Sub Inspector Of Police",
+        "dp": "images/gallery/7.jpg"
     },
     {
         "wing": null,
