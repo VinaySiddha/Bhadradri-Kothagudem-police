@@ -395,9 +395,9 @@ let orgUnits = [
         "twitter": null,
         "ig": null,
         "psImg": "contactsData/image38.jpeg",
-        "name": "Banala Ramu",
+        "name": "K Suman",
         "role": "Sub - Inspector of Police",
-        "dp": "contactsData/image37.jpeg"
+        "dp": "images/gallery/8.jpg"
     },
     {
         "wing": null,
