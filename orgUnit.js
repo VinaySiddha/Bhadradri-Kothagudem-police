@@ -175,9 +175,9 @@ let orgUnits = [
         "twitter": null,
         "ig": null,
         "psImg": "contactsData/image39.jpeg",
-        "name": "Machineni Ravi",
+        "name": "G Swapna",
         "role": "Sub-Inspector of Police SHO",
-        "dp": "contactsData/image40.jpeg"
+        "dp": "images/gallery/chandrugunda.jpg"
     },
     {
         "wing": null,
