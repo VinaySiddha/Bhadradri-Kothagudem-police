@@ -1155,9 +1155,9 @@ let orgUnits = [
         "twitter": null,
         "ig": null,
         "psImg": null,
-        "name": "Bellam Satyanaryana",
+        "name": "A Rama Kanth",
         "role": "Inspector of Police",
-        "dp": "contactsData/image83.jpeg"
+        "dp": "images/gallery/0.jpg"
     },
     {
         "wing": "Cyber cell",
