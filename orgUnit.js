@@ -195,9 +195,9 @@ let orgUnits = [
         "twitter": null,
         "ig": null,
         "psImg": "contactsData/image26.png",
-        "name": "I. Jeevan Raju",
-        "role": null,
-        "dp": "contactsData/image25.jpeg"
+        "name": "B Rana Pratap ",
+        "role": "Sub Inspector Of Police",
+        "dp": "images/gallery/julurapad.jpg"
     },
     {
         "wing": null,
@@ -456,7 +456,7 @@ let orgUnits = [
         "ig": null,
         "psImg": "contactsData/image28.png",
         "name": "K.Rajasekhar",
-        "role": null,
+        "role": "Sub Inspector Of Police",
         "dp": "contactsData/image27.jpeg"
     },
     {
