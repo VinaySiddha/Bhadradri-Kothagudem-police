@@ -596,8 +596,8 @@ let orgUnits = [
         "ig": null,
         "psImg": null,
         "name": "E.Raj Kumar",
-        "role": null,
-        "dp": null
+        "role": "Sub Inspector Of Police",
+        "dp": "images/gallery/edulla.jpg"
     },
     {
         "wing": null,
